@@ -60,6 +60,7 @@ public class TestPage extends BrowserActions {
         Thread.sleep(4000);
         action5.loginAct3();
         action5.loginAct4();
+        Thread.sleep(4000);
         String expectedResult = "არასწორი მონაცემი";
         String actualResult = driver.findElement(By.className("sc-106fa713-3")).getText();
         Assert.assertEquals(actualResult, expectedResult);
