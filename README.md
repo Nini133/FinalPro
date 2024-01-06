@@ -12,6 +12,7 @@ openjdk version "17.0.5"
 
 TEST CASES 
 1.Check if a user can login with a valid username and valid password
+
 2.check if user can login with a valid phone number 
 3.check if user can login with an invalid phone number 
 4.check if user can use navigation tab from main page
